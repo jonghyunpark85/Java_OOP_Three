@@ -45,16 +45,16 @@ When a reservation in the list is selected, the corresponding fields will be pop
 The only fields that can be edited are the name, citizenship, and status. None of the other fields can be modified in any way by the user. After the travel agent has made any changes to the reservation, the update button will be clicked. The mutator methods in the Reservation object will be called and an error maybe displayed if an exception occurs. The persist method in the Manager class saves all Reservation and Flight objects to a binary file on the hard drive.
 
 #### Notes
-•	The Manager class generates the reservation code. 
-•	Each reservation is for one seat only. 
-•	The name and citizenship do not need to follow any specific format; however, they cannot be empty.
-•	Each problem domain class overrides the toString() method.
+•	The Manager class generates the reservation code.  <br/>
+•	Each reservation is for one seat only.  <br/>
+•	The name and citizenship do not need to follow any specific format; however, they cannot be empty. <br/>
+•	Each problem domain class overrides the toString() method. <br/>
 •	Flight codes use the following format: (L meaning Letter, D meaning Digit)
-o	LL-DDDD (I.e.: GA-1234)
+o	LL-DDDD (I.e.: GA-1234)  <br/>
 •	Reservation codes use the following format: (L meaning Letter, D meaning Digit)
-o	LDDDD (i.e.: I1234)
+o	LDDDD (i.e.: I1234)  <br/>
 •	Times are in 24-hour format: 
-o	HH:MM
-•	A reservation that is set to inactive is persisted and retained when the program opens again.
-•	The user interface is to be designed using Swing. 
+o	HH:MM  <br/>
+•	A reservation that is set to inactive is persisted and retained when the program opens again. <br/>
+•	The user interface is to be designed using Swing.  <br/>
 o	You may use the WindowBuilder plugin for Eclipse. 
